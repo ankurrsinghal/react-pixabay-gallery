@@ -18,7 +18,7 @@ class User {
 
     static load() {
         try {
-            this.users = JSON.parse(window.localStorage.getItem('users'));
+            this.users = JSON.parse(window.localStorage.getItem('users')) || {};
         } catch(e) {
             console.error(e);
             this.users = {};
