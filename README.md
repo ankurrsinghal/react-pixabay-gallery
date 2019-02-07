@@ -1,3 +1,3 @@
 ## Live
 
-Demo[http://react-pixabay.surge.sh/login]
+Demo[http://react-pixabay.surge.sh]
